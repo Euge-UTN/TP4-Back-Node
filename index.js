@@ -1,9 +1,12 @@
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
+import dotenv from 'dotenv';
 
 import gastosRouter from './routes/gastos.js';
 import categoriasRouter from './routes/categorias.js';
+
+dotenv.config();
 
 const app = express();
 

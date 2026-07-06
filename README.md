@@ -21,15 +21,11 @@ npm install
 
 Luego el servidor puede iniciarse con:
 
-```bash
 npm start
-```
 
 o, si se desea utilizar Nodemon para reiniciar automáticamente el servidor ante cambios en el código:
 
-```bash
 npm run dev
-```
 
 El servidor se ejecuta en el puerto definido en el archivo `.env` o, en caso de no existir, utiliza el puerto 3001.
 

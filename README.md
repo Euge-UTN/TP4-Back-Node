@@ -16,9 +16,8 @@ Si se intenta acceder a una ruta que no existe, la API responde con un error 404
 
 Para ejecutar la aplicación es necesario instalar las dependencias con:
 
-```bash
 npm install
-```
+
 
 Luego el servidor puede iniciarse con:
 
